@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EPUG2014</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link href='big.css' rel='stylesheet' type='text/css'/>
+    <style>
+      .paddedText
+        {
+          padding-left: 100px;
+        }
+      .paddedText300px
+        {
+          padding-left: 300px;
+        }
+      .paddedText500px
+        {
+          padding-left: 500px;
+        }
+      .dive {
+        background-image: url('img/skydive.jpg');
+        background-repeat: no-repeat;
+        background-position: center 1px;
+        background-size: 100%;
+        }
+      .hybrid {
+        background-image: url('img/hybrid.jpg');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 400px;
+        }
+      .licence {
+        background-image: url('img/licence.png');
+        background-repeat: no-repeat;
+        background-position:50px 50px;
+        background-size: 30%;
+        }
+      .esrioss {
+        background-image: url('img/esri-oss.png');
+        background-repeat: no-repeat;
+        background-position:50px 50px;
+        background-size: 800px;
+        }
+      .freebeer {
+        background-image: url("img/freebeer.jpg");
+        background-repeat: no-repeat;
+        background-position:0px 0px;
+        background-size: 100%;
+        }
+      .facepalm {
+        background-image: url("img/facepalm.jpg");
+        background-repeat: no-repeat;
+        background-position:0px 0px;
+        background-size: 100%;
+        }
+      .deadline {
+        background-image: url('img/deadline.gif');
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: 100%;
+        }
+      .ingredients {
+        background-image: url('img/ingredients.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: 100%;
+        color: #111;
+        }
+      .wallofterror {
+        background-image: url('img/wallofterror.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        /*background-size: 100%;
+        color: #111;*/
+        }
+      .achievement {
+        background-image: url('img/achievement-locked.png');
+        background-repeat: no-repeat;
+        background-position: center 100px;
+        background-size: 50%;
+        }
+      .reidhoffman {
+        background-image: url('img/reidhoffman.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0x;
+        background-size: 100%;
+        color: #111;
+        }
+      .fastforward {
+        background-image: url('img/fastforward.png');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 40%;
+        }
+      .cutestory {
+        background-image: url('img/cutestory.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0x;
+        background-size: 100%;
+        }
+      .irisdashboard {
+        background-image: url('img/iris-dashboard.gif');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 1000px;
+        }
+      .irismeasure {
+        background-image: url('img/iris-measure.png');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 1000px;
+        }
+      .irisfileexpolorer {
+        background-image: url('img/iris-file-explorer.gif');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 1000px;
+        }
+      .irisvessel {
+        background-image: url('img/iris-vessel.gif');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 1000px;
+        }
+      .irisbasemap{
+        background-image: url('img/iris-basemap.gif');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 1000px;
+        }
+      .iriscad{
+        background-image: url('img/iris-cad.gif');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 1000px;
+        }
+      .webmercator {
+        background-image: url('img/mercator.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0x;
+        background-size: 100%;
+        color: #111;
+        }
+      .mapprod {
+        background-image: url('img/map-prod.gif');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 40%;
+        background-color: #fff;
+        color: #111;
+        }
+      .igm {
+        background-image: url('img/igm.gif');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 800px;
+        }
+      .inkscape {
+        background-image: url('img/inkscape.png');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 800px;
+        }
+      .projexp {
+        background-image: url('img/projexp.gif');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 900px;
+        }
+      .srvexp {
+        background-image: url('img/surveyexp.gif');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 900px;
+        }
+      .gorilla {
+        background-image: url('img/gorilla.jpg');
+        background-repeat: no-repeat;
+        background-position: center 0x;
+        background-size: 100%;
+        color: #FF9933;
+        }
+      .postarcmap {
+        background-image: url('img/postarcmap.png');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 70%;
+        }
+      .pgcon {
+        background-image: url('img/pgcon.png');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 900px;
+        }
+      .geoscientist {
+        background-image: url('img/geoscientist.png');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 900px;
+        background-color: #fff;
+        color: #111;
+        }
+      .dtm {
+        background-image: url('img/dtm.png');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 80%;
+        }
+      .gdal {
+        background-image: url('img/gdal.png');
+        background-repeat: no-repeat;
+        background-position:50px 400px;
+        background-size: 615px;
+        background-color: #fff;
+        color: #111;
+        }
+      .confused {
+        background-image: url('img/confused.jpeg');
+        background-repeat: no-repeat;
+        background-position: 50px 50px;
+        background-size: 40%;
+        background-color: #fff;
+        color: #111;
+        }
+      .earlyadopter {
+        background-image: url('img/early-adopter.jpg');
+        background-repeat: no-repeat;
+        background-position: 25px 25px;
+        background-size: 400px;
+        /*background-color: #fff;
+        color: #111;*/
+        }
+      .contributor {
+        background-image: url('img/contributors.png');
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: 100%;
+        color: #111;
+        }
+      </style>
+    <script src='big.js'></script>
+  </head>
+<body>
+  <div>Diversify or die</div>
+  <div>what is the objective of this slide deck?</div>
+  <div>ePUG abstract = FAIL</div>
+  <div>Err. Sour Grapes, dude? Get over it.</div>
+  <div>...and the title was?</div>
+  <div>"Is the end nigh of the O&G GIS Specialist?"</div>
+  <div>Sheesh ...<br> at an Esri conference?</div>
+  <div>let's see the abstract .. </div>
+  <div>In the past, the O&G GIS specialist could make a career out of being an expert user of single desktop GIS application. Now, this is fast becoming history with the overwhelming proliferation of web-based platform/software/data  "As-A" service solutions and an increasing need for automation tools and IT skills to handle data volumes. This presentation will make the case for how and why O&G GIS specialists and the wider PUG community can re-skill to flourish in this new paradigm.</div>
+  <div>I will not deny that is was intended to provoke a discussion but point was to ... </div>
+  <div>offer the geospatial community polite wake up call which is</div>
+  <div>"there may be trouble ahead"</div>
+  <div>the O&G sector is in free-fall, with huge layoffs</div>
+  <div>I know personally GIS staff that have been made redundant</div>
+  <div>My organisation has made 15% of staff redundant. I run a team of 5 permenant staff. None were laid off.</div>
+  <div>Why?</div>
+  <div>We have radically diversified our skillsets</div>
+  <div>We are no longer just single-application GIS specialists</div>
+  <div>We have a toolbox of 50-60 tools</div>
+  <div>and we creatively stitch these tools together to solve data/geospatial problems.</div>
+  <div>let's take a few examples over the last week...</div>
+  <div>I needed to split a mega DTM into nice 5 x 5 km tiles</div>
+  <div>enter awesome</div>
+  <div>`enter syntax`</div>
+  <div>kaboom!</div>
+  <div>this badboy crops the dtm per feature in a shape file</div>
+  <div>The client's GIS guy probably likes Esri ArcInfo grids (.asc) so, I'll batch convert the GTiffs to ASC</div>
+  <div></div>
+  <div>I then needed convert the geotifs to XYZ (catch is output has to not have 'delete values' in it)</div>
+  <div>bingo. Enter GMT's 'grd2xyz'</div>
+  <div>done.</div>
+  <div>But, the client comes back, and says then need all 48 XYZs as 'space' delimited, not 'tab' delimited (default and only option in GMT)</div>
+  <div>GMT doesn't output tabs.</div>
+  <div>Enter `AWK`. A sweet tool available on windows via GNUwin32 tools</div>
+  <div>this single command converts tab to space characters, globally within a text file.</div>
+  <div>then one can easily loop this in a shell command on windows</div>
+  <div>these tiles grids are 100s MB each, so one mega zip isn't going to be a helpful deliverable.</div>
+  <div>using 7zip, this zips up content on a per tile basis using the filename stub.</div>
+  <div>that's 48 zipped DTM tiles ready to go.</div>
+  <div>finally, if the client comes back saying the 5 x 5 km tiles are 'too big', it's easy to replicate this workflow with a smaller 'index' tiles</div>
+  <div>So. There's. Automation. Reproducability</div>
+  <div>i work for a consultancy. Clients like it when you can just solve through problems quickly (which therefore doesn't cost them much money).</div>
+  <div>We are successful because we can quickly turnaround output using advanced automation.</div>
+  <div>I then need to zip all data per tile</div>
+  <div></div>
+  <div>Presentation made with <a href="https://github.com/tmcw/big">Big</a> from <a href="https://twitter.com/tmcw">@tmcw</a></div>
+</body>
+</html>
